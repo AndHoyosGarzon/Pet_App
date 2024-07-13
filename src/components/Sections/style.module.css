@@ -1,0 +1,44 @@
+.content_section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content_big {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionCardBig {
+  width: 98%;
+  height: 98%;
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: black;
+}
+
+.content_small {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sectionCards {
+  width: 48%;
+  height: 48%;
+  border: 1px solid black;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  background-color: brown;
+}
