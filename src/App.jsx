@@ -5,7 +5,7 @@ import Sections from "./components/Sections/Sections";
 function App() {
   return (
     <div className="bg-light">
-      {/* <Cards /> Listo */}
+      {/*Listo  <Cards />*/}
       <Sections />
     </div>
   );

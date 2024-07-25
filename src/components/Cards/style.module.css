@@ -1,5 +1,5 @@
 .card_content {
-  transition: 0.8s;
+  transition: 0.2s;
   width: 250px;
   height: auto;
   margin: 2rem;
@@ -12,7 +12,7 @@
 }
 
 .card_content:hover {
-  width: 253px;
+  z-index: 5;
   cursor: pointer;
   border: none;
   box-shadow: 10px 10px 5px 0px rgba(209, 198, 209, 1);
